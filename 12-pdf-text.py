@@ -58,8 +58,8 @@ def getJobResults(jobId):
     return pages
 
 # Document
-s3BucketName = "ki-textract-demo-docs"
-documentName = "Amazon-Textract-Pdf.pdf"
+s3BucketName = "textract-console-us-west-1-9b30a69a-e1b3-4589-a7b4-18cff24cfa4c"
+documentName = "el campesino y la muerte.pdf"
 
 jobId = startJob(s3BucketName, documentName)
 print("Started job with id: {}".format(jobId))
